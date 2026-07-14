@@ -1,0 +1,39 @@
+1st
+
+Write a program that calculates the SHA-256 hash of a user-input string.
+your program should:
+accept a text message from the user.
+compute its SHA-256 hash.
+Display the hexadecimal digest.
+then perform the following experiments:
+a) change one character of the input.
+b) compare the two hash values.
+c) explain what property of cryptographic hash functions is demonstrated.
+
+
+2nd
+
+Given the following 4 transactions:
+t1=alice pays bob 5 btc
+t2=bob pays charlie 2btc
+t3=charlie pays david 1btc
+t4=david pays eva 3 btcperform the following tasks:
+1. compute the sha-256 hash of each transactions
+2. construct the complete mercle tree
+3.show every intermidiate hash
+4. compute the mercle root.
+draw the merkle tree
+
+3rd
+
+write a program that demonstrates Digital Signature generation and verification.
+the program should:
+generate a public/private key pair.
+accept a text message.
+digitally sign the messageverify the Signature
+display:
+original messagesignature
+verification result
+now modify one character of the message.
+verify the old signature again.
+explain why verification fails.
